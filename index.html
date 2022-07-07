@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Simulator</title>
+  <script defer src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form id="user-section">
+    <input type="text" name='search' id='textBox'>
+    <button type="submit" id='searchButton'>Search Cryptocurrencies</button>
+  </form>
+
+  <div id="result-container">
+
+
+  </div>
+
+  <div id="wallet">
+    <h2 id="walletText">Wallet</h2>
+    <div class='divider'></div>
+    <h3 class='cashText' id='cash'></h3>
+    <h3 class='cashText' id='cryptoCash'></h3>
+    <h3 class='cashText' id='profit'></h3>
+    <button id='update'>Update</button>
+    <div class='divider'></div>
+    <div id='innerWallet'>
+    </div>
+
+    <div class='btnContainer'>
+      <button class='saveLoadBtn' id='save'>Save</button>
+      <button class='saveLoadBtn' id='load'>Load</button>
+      <button class='saveLoadbtn' id='restart'>Restart</button>
+    </div>
+  </div>
+
+</body>
+
+</html>

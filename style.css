@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New";
+
+
+}
+
+#result-container {
+    position: fixed;
+    left: 10%;
+    top: 10%;
+    width: 60%;
+    height: 40%;
+    background: aliceblue;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgb(255, 254, 254);
+    margin-right: 10px;
+    display: none;
+    opacity: 90%;
+    color: black;
+    padding-top: 5%;
+}
+
+
+.exitBtn {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+}
+
+.buyButton {
+    width: 25%;
+    margin-right: 1%;
+}
+
+.sellButton {
+    width: 25%;
+}
+
+#wallet {
+    position: fixed;
+    background: aliceblue;
+    right: 2%;
+    top: 10%;
+    border-radius: 15%;
+    width: 20%;
+    height: 50%;
+    opacity: 90%;
+    box-shadow: 0px 0px 20px rgb(255, 254, 254);
+}
+
+.divider {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+
+#walletText {
+    text-align: center;
+}
+
+#user-section {
+    position: fixed;
+    left: 40%;
+
+}
+
+#textBox {
+    background: rgba(226, 205, 205, 0.405);
+    color: white;
+}
+
+.btnContainer {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    direction: row;
+}
+
+.btnContainer2 {
+    height: 10%;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    direction: row;
+}
+
+#innerWallet {
+    height: 40%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+.cashText {
+    text-align: center;
+}
+
+#update {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+
+.saveLoadBtn {
+    margin-left: 1%;
+}
